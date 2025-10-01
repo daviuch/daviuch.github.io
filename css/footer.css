@@ -28,7 +28,7 @@ max-width: 40ch;
   grid-template-columns: 1fr 1fr;
   gap: 100px;
   margin: 0 auto;
-  padding: 120px 20px;
+  padding: 120px 20px 60px 20px;
   align-items: center;
 }
 
