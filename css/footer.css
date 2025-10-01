@@ -1,0 +1,40 @@
+.footer{
+  background-color: black;
+}
+
+.texto-contato{
+color: #cccccc;
+font-size: 24px;
+line-height: 1.33;
+max-width: 40ch;
+}
+.lista-contatos{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 36px;
+  line-height: 1.11;
+  color: white;
+  font-weight: bold;
+}
+
+.lista-contatos a{
+  color: white;
+}
+
+.footer-elementos{
+ max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  margin: 0 auto;
+  padding: 120px 20px;
+  align-items: center;
+}
+
+.direitos{
+ margin-top: 20px;
+ font-size: 18px;
+ line-height: 1.7;
+ color: #8f8f8f;
+}
