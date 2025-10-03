@@ -66,15 +66,13 @@
   height: 20px;
   left: -4px;
 }
-
-.lista-cursos {
+.lista-extra {
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin-top: 30px;
 }
-
-.lista-cursos li {
+#lista-cursos li {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,48 +80,29 @@
   line-height: 1.1;
 }
 
-.lista-idiomas {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.lista-idiomas span {
+#lista-idiomas span {
   color: #8f8f8f;
 }
-.titulo-cursos {
+.titulo-extra {
   position: relative;
   font-size: 14px;
   color: #8f8f8f;
 }
-
-.titulo-cursos::before {
+.titulo-extra::before {
   content: "";
   display: block;
   width: 24px;
   height: 24px;
-  background: url(/img/cursos.svg) no-repeat center;
   position: absolute;
   left: -32px;
   top: -5px;
 }
 
-.titulo-idiomas {
-  position: relative;
-  font-size: 14px;
-  color: #8f8f8f;
+#titulo-idiomas::before{
+    background: url(/img/idiomas.svg) no-repeat center;
 }
-
-.titulo-idiomas::before {
-  content: "";
-  display: block;
-  width: 24px;
-  height: 24px;
-  background: url(/img/idiomas.svg) no-repeat center;
-  position: absolute;
-  left: -32px;
-  top: -5px;
+#titulo-cursos::before{
+    background: url(/img/cursos.svg) no-repeat center;
 }
 
 .extra {
